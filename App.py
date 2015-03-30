@@ -6,7 +6,7 @@ ACCESS_TOKEN = '1864732598-QO0wi40n5JPPBVXiptoMCrrsTlgwqWHMe1SMIcZ'
 ACCESS_TOKEN_SECRET = 'L2SFsTYHuhDtvQDZjzrbT8WhvpcWFHGRKi1ch8GwjQs'
 URL = 'https://api.twitter.com/1.1/statuses/update.json'
 BODY = '{"status": "hello!"}'
-2
+
 def oauth_req(url, key, secret, http_method="GET", body='', http_headers=None):
     consumer = oauth.Consumer(key=CONSUMER_KEY, secret=CONSUMER_SECRET)
     token = oauth.Token(key=key, secret=secret)
